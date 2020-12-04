@@ -30,7 +30,7 @@ abort() {
 }
 
 clear
-export CROSS_COMPILE=/home/volt/toolchain/bin/aarch64-unknown-linux-gnu-
+export CROSS_COMPILE=/home/volt/toolchain/gcc-linaro-4.9.4-2017.01-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-
 export ARCH=arm64
 export ANDROID_MAJOR_VERSION=p
 export LOCALVERSION="${KERNEL_NAME}"
